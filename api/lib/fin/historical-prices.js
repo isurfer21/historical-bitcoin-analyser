@@ -3,11 +3,7 @@ const HttpWrapper = require("../http-wrapper");
 
 async function fetchHistoricalData(startDate, endDate) {
   const url = `${config.api.historical_prices}?start=${startDate}&end=${endDate}`;
-  const options = {
-    headers: {
-      Authorization: !!config.api_key.coindesk ? `Bearer ${config.api_key.coindesk}` : "",
-    },
-  };
+  const options = {};
   try {
     const response = await HttpWrapper.get(url, options);
     return response;

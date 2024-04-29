@@ -4,8 +4,5 @@
         "historical_prices": "http://localhost:8080/mock/bpi/historical/close.json",
         "supported_currencies": "http://localhost:8080/mock/bpi/supported-currencies.json",
         "btc_historical_prices": "http://localhost:8080/mock/tb/price/values/BTC.json"
-    },
-    "api_key": {
-        "coindesk": ""
     }
 }
