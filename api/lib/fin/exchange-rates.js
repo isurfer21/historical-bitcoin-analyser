@@ -6,9 +6,9 @@ let cache = {};
 let cacheTimestamp = 0;
 
 async function fetchRates() {
-  try { console.log('fetchRates url', config.api.exchange_rates)
-    const response = await HttpWrapper.get(config.api.exchange_rates); console.log('fetchRates response', response)
-    return response.rates;
+  try {
+    const response = await HttpWrapper.get(config.api.exchange_rates); 
+    return response.data;
   } catch (error) {
     console.error(error);
     throw new Error(error.message);

@@ -43,7 +43,7 @@ async function getHistoricalBitcoinPrice(startDate, endDate, targetCurrency = "U
     const closingPrices = entries.map(([timestamp, open, high, low, closing]) => closing);
     const maxClosingPrice = Math.max(...closingPrices);
     const minClosingPrice = Math.min(...closingPrices);
-    const targetRate = await exchangeRates.getRate(targetCurrency); console.log('getHistoricalBitcoinPrice targetRate', targetRate)
+    const targetRate = await exchangeRates.getRate(targetCurrency);
     const prices = entries.map(([timestamp, open, high, low, closing]) => {
       const isMax = closing === maxClosingPrice;
       const isMin = closing === minClosingPrice;
