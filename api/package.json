@@ -1,0 +1,15 @@
+{
+  "name": "hbp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node api.js --port 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Kumar",
+  "license": "CC BY-NC-ND 4.0"
+}

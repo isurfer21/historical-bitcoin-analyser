@@ -1,0 +1,11 @@
+{
+    "api": {
+        "exchange_rates": "https://www.coindesk.com/pf/api/v3/content/fetch/exchange-rates",
+        "historical_prices": "https://api.coindesk.com/v1/bpi/historical/close",
+        "supported_currencies": "https://api.coindesk.com/v1/bpi/supported-currencies.json",
+        "btc_historical_prices": "https://production.api.coindesk.com/v2/tb/price/values/BTC"
+    },
+    "api_key": {
+        "coindesk": ""
+    }
+}

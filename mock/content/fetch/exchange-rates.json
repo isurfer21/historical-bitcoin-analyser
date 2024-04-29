@@ -1,0 +1,1146 @@
+{
+  "rates": {
+    "VES": {
+      "iso": "VES",
+      "name": "Venezuelan Bolívar",
+      "slug": "venezuela-bolvar",
+      "rate": 36.377596
+    },
+    "XAU": {
+      "iso": "XAU",
+      "name": "Gold (troy ounce)",
+      "slug": "gold-troy-ounce",
+      "rate": 0.00042775,
+      "symbol": ""
+    },
+    "ZWL": {
+      "iso": "ZWL",
+      "name": "Zimbabwean Dollar",
+      "slug": "zimbabwean-dollar",
+      "rate": 322,
+      "symbol": ""
+    },
+    "XAG": {
+      "iso": "XAG",
+      "name": "Silver (troy ounce)",
+      "slug": "silver-troy-ounce",
+      "rate": 0.03666227,
+      "symbol": ""
+    },
+    "STD": {
+      "iso": "STD",
+      "name": "São Tomé and Príncipe Dobra",
+      "slug": "sao-tome-and-principe-dobra",
+      "rate": 22281.8,
+      "symbol": ""
+    },
+    "SOS": {
+      "iso": "SOS",
+      "name": "Somali Shilling",
+      "slug": "somali-shilling",
+      "rate": 571.366998,
+      "symbol": "S"
+    },
+    "CLF": {
+      "iso": "CLF",
+      "name": "Chilean Unit of Account (UF)",
+      "slug": "chilean-unit-of-account",
+      "rate": 0.034183,
+      "symbol": ""
+    },
+    "ZMW": {
+      "iso": "ZMW",
+      "name": "Zambia Kwacha",
+      "slug": "zambia-kwacha",
+      "rate": 26.532213,
+      "symbol": ""
+    },
+    "ZAR": {
+      "iso": "ZAR",
+      "name": "South Africa Rand",
+      "slug": "south-africa-rand",
+      "rate": 18.633588,
+      "symbol": "R"
+    },
+    "YER": {
+      "iso": "YER",
+      "name": "Yemen Rial",
+      "slug": "yemen-rial",
+      "rate": 250.374948,
+      "symbol": "﷼"
+    },
+    "XPF": {
+      "iso": "XPF",
+      "name": "Comptoirs Français du Pacifique (CFP) Franc",
+      "slug": "comptoirs-franais-du-pacifique-cfp-franc",
+      "rate": 111.350682,
+      "symbol": ""
+    },
+    "XOF": {
+      "iso": "XOF",
+      "name": "Communauté Financière Africaine (BCEAO) Franc",
+      "slug": "communaut-financire-africaine-bceao-franc",
+      "rate": 612.085754,
+      "symbol": ""
+    },
+    "XDR": {
+      "iso": "XDR",
+      "name": "International Monetary Fund (IMF) Special Drawing Rights",
+      "slug": "international-monetary-fund-imf-special-drawing-rights",
+      "rate": 0.76165,
+      "symbol": ""
+    },
+    "XCD": {
+      "iso": "XCD",
+      "name": "East Caribbean Dollar",
+      "slug": "east-caribbean-dollar",
+      "rate": 2.70255,
+      "symbol": "$"
+    },
+    "XAF": {
+      "iso": "XAF",
+      "name": "Communauté Financière Africaine (BEAC), CFA Franc BEAC",
+      "slug": "communaut-financire-africaine-beac-cfa-franc-beac",
+      "rate": 612.085754,
+      "symbol": ""
+    },
+    "WST": {
+      "iso": "WST",
+      "name": "Samoa Tala",
+      "slug": "samoa-tala",
+      "rate": 2.8,
+      "symbol": ""
+    },
+    "VUV": {
+      "iso": "VUV",
+      "name": "Vanuatu Vatu",
+      "slug": "vanuatu-vatu",
+      "rate": 118.722,
+      "symbol": ""
+    },
+    "VND": {
+      "iso": "VND",
+      "name": "Viet Nam Dong",
+      "slug": "viet-nam-dong",
+      "rate": 25345,
+      "symbol": "₫"
+    },
+    "UZS": {
+      "iso": "UZS",
+      "name": "Uzbekistan Som",
+      "slug": "uzbekistan-som",
+      "rate": 12655,
+      "symbol": "лв"
+    },
+    "UYU": {
+      "iso": "UYU",
+      "name": "Uruguay Peso",
+      "slug": "uruguay-peso",
+      "rate": 38.638884,
+      "symbol": "$U"
+    },
+    "USD": {
+      "iso": "USD",
+      "name": "United States Dollar",
+      "slug": "united-states-dollar",
+      "rate": 1,
+      "symbol": "$"
+    },
+    "UGX": {
+      "iso": "UGX",
+      "name": "Uganda Shilling",
+      "slug": "uganda-shilling",
+      "rate": 3814.553101,
+      "symbol": ""
+    },
+    "UAH": {
+      "iso": "UAH",
+      "name": "Ukraine Hryvnia",
+      "slug": "ukraine-hryvnia",
+      "rate": 39.660434,
+      "symbol": "₴"
+    },
+    "TZS": {
+      "iso": "TZS",
+      "name": "Tanzania Shilling",
+      "slug": "tanzania-shilling",
+      "rate": 2590,
+      "symbol": ""
+    },
+    "TWD": {
+      "iso": "TWD",
+      "name": "Taiwan New Dollar",
+      "slug": "taiwan-new-dollar",
+      "rate": 32.552501,
+      "symbol": "NT$"
+    },
+    "TTD": {
+      "iso": "TTD",
+      "name": "Trinidad and Tobago Dollar",
+      "slug": "trinidad-and-tobago-dollar",
+      "rate": 6.805101,
+      "symbol": "TT$"
+    },
+    "TRY": {
+      "iso": "TRY",
+      "name": "Turkey Lira",
+      "slug": "turkey-lira",
+      "rate": 32.3849,
+      "symbol": ""
+    },
+    "TOP": {
+      "iso": "TOP",
+      "name": "Tonga Pa'anga",
+      "slug": "tonga-paanga",
+      "rate": 2.386006,
+      "symbol": ""
+    },
+    "TND": {
+      "iso": "TND",
+      "name": "Tunisia Dinar",
+      "slug": "tunisia-dinar",
+      "rate": 3.148,
+      "symbol": ""
+    },
+    "TMT": {
+      "iso": "TMT",
+      "name": "Turkmenistan Manat",
+      "slug": "turkmenistan-manat",
+      "rate": 3.5,
+      "symbol": ""
+    },
+    "TJS": {
+      "iso": "TJS",
+      "name": "Tajikistan Somoni",
+      "slug": "tajikistan-somoni",
+      "rate": 10.922804,
+      "symbol": ""
+    },
+    "THB": {
+      "iso": "THB",
+      "name": "Thailand Baht",
+      "slug": "thailand-baht",
+      "rate": 37.023,
+      "symbol": "฿"
+    },
+    "SZL": {
+      "iso": "SZL",
+      "name": "Swaziland Lilangeni",
+      "slug": "swaziland-lilangeni",
+      "rate": 18.88865,
+      "symbol": ""
+    },
+    "SYP": {
+      "iso": "SYP",
+      "name": "Syria Pound",
+      "slug": "syria-pound",
+      "rate": 2512.53,
+      "symbol": "£"
+    },
+    "SVC": {
+      "iso": "SVC",
+      "name": "El Salvador Colon",
+      "slug": "el-salvador-colon",
+      "rate": 8.748542,
+      "symbol": "$"
+    },
+    "STN": {
+      "iso": "STN",
+      "name": "São Tomé and Príncipe Dobra",
+      "slug": "so-tom-and-prncipe-dobra",
+      "rate": 23.15
+    },
+    "SRD": {
+      "iso": "SRD",
+      "name": "Suriname Dollar",
+      "slug": "suriname-dollar",
+      "rate": 33.969,
+      "symbol": "$"
+    },
+    "SLL": {
+      "iso": "SLL",
+      "name": "Sierra Leone Leone",
+      "slug": "sierra-leone-leone",
+      "rate": 20969.5,
+      "symbol": ""
+    },
+    "SHP": {
+      "iso": "SHP",
+      "name": "Saint Helena Pound",
+      "slug": "saint-helena-pound",
+      "rate": 0.796729,
+      "symbol": "£"
+    },
+    "SGD": {
+      "iso": "SGD",
+      "name": "Singapore Dollar",
+      "slug": "singapore-dollar",
+      "rate": 1.360014,
+      "symbol": "$"
+    },
+    "SEK": {
+      "iso": "SEK",
+      "name": "Sweden Krona",
+      "slug": "sweden-krona",
+      "rate": 10.933039,
+      "symbol": "kr"
+    },
+    "SDG": {
+      "iso": "SDG",
+      "name": "Sudan Pound",
+      "slug": "sudan-pound",
+      "rate": 586,
+      "symbol": ""
+    },
+    "SCR": {
+      "iso": "SCR",
+      "name": "Seychelles Rupee",
+      "slug": "seychelles-rupee",
+      "rate": 13.658286,
+      "symbol": "₨"
+    },
+    "SBD": {
+      "iso": "SBD",
+      "name": "Solomon Islands Dollar",
+      "slug": "solomon-islands-dollar",
+      "rate": 8.475185,
+      "symbol": "$"
+    },
+    "SAR": {
+      "iso": "SAR",
+      "name": "Saudi Arabia Riyal",
+      "slug": "saudi-arabia-riyal",
+      "rate": 3.750735,
+      "symbol": "﷼"
+    },
+    "RWF": {
+      "iso": "RWF",
+      "name": "Rwanda Franc",
+      "slug": "rwanda-franc",
+      "rate": 1291.013616,
+      "symbol": ""
+    },
+    "RUB": {
+      "iso": "RUB",
+      "name": "Russia Ruble",
+      "slug": "russia-ruble",
+      "rate": 92.28,
+      "symbol": "Br"
+    },
+    "RSD": {
+      "iso": "RSD",
+      "name": "Serbia Dinar",
+      "slug": "serbia-dinar",
+      "rate": 109.266251,
+      "symbol": "Дин."
+    },
+    "RON": {
+      "iso": "RON",
+      "name": "Romania Leu",
+      "slug": "romania-leu",
+      "rate": 4.6412,
+      "symbol": "lei"
+    },
+    "QAR": {
+      "iso": "QAR",
+      "name": "Qatar Riyal",
+      "slug": "qatar-riyal",
+      "rate": 3.6406,
+      "symbol": "﷼"
+    },
+    "PYG": {
+      "iso": "PYG",
+      "name": "Paraguay Guarani",
+      "slug": "paraguay-guarani",
+      "rate": 7445.232024,
+      "symbol": "Gs"
+    },
+    "PLN": {
+      "iso": "PLN",
+      "name": "Poland Zloty",
+      "slug": "poland-zloty",
+      "rate": 4.028548,
+      "symbol": "zł"
+    },
+    "PKR": {
+      "iso": "PKR",
+      "name": "Pakistan Rupee",
+      "slug": "pakistan-rupee",
+      "rate": 278.33436,
+      "symbol": "₨"
+    },
+    "PHP": {
+      "iso": "PHP",
+      "name": "Philippines Piso",
+      "slug": "philippines-piso",
+      "rate": 57.684505,
+      "symbol": "₱"
+    },
+    "PGK": {
+      "iso": "PGK",
+      "name": "Papua New Guinea Kina",
+      "slug": "papua-new-guinea-kina",
+      "rate": 3.85225,
+      "symbol": ""
+    },
+    "PEN": {
+      "iso": "PEN",
+      "name": "Peru Sol",
+      "slug": "peru-sol",
+      "rate": 3.741931,
+      "symbol": "S/."
+    },
+    "PAB": {
+      "iso": "PAB",
+      "name": "Panama Balboa",
+      "slug": "panama-balboa",
+      "rate": 1,
+      "symbol": "B/."
+    },
+    "OMR": {
+      "iso": "OMR",
+      "name": "Oman Rial",
+      "slug": "oman-rial",
+      "rate": 0.384958,
+      "symbol": "﷼"
+    },
+    "NZD": {
+      "iso": "NZD",
+      "name": "New Zealand Dollar",
+      "slug": "new-zealand-dollar",
+      "rate": 1.674495,
+      "symbol": "$"
+    },
+    "NPR": {
+      "iso": "NPR",
+      "name": "Nepal Rupee",
+      "slug": "nepal-rupee",
+      "rate": 133.53391,
+      "symbol": "₨"
+    },
+    "NOK": {
+      "iso": "NOK",
+      "name": "Norway Krone",
+      "slug": "norway-krone",
+      "rate": 10.99485,
+      "symbol": "kr"
+    },
+    "NIO": {
+      "iso": "NIO",
+      "name": "Nicaragua Cordoba",
+      "slug": "nicaragua-cordoba",
+      "rate": 36.988665,
+      "symbol": "C$"
+    },
+    "NGN": {
+      "iso": "NGN",
+      "name": "Nigeria Naira",
+      "slug": "nigeria-naira",
+      "rate": 1325.13,
+      "symbol": "₦"
+    },
+    "NAD": {
+      "iso": "NAD",
+      "name": "Namibia Dollar",
+      "slug": "namibia-dollar",
+      "rate": 18.877219,
+      "symbol": "$"
+    },
+    "MZN": {
+      "iso": "MZN",
+      "name": "Mozambique Metical",
+      "slug": "mozambique-metical",
+      "rate": 63.950007,
+      "symbol": "MT"
+    },
+    "MYR": {
+      "iso": "MYR",
+      "name": "Malaysia Ringgit",
+      "slug": "malaysia-ringgit",
+      "rate": 4.777499,
+      "symbol": "RM"
+    },
+    "MXN": {
+      "iso": "MXN",
+      "name": "Mexico Peso",
+      "slug": "mexico-peso",
+      "rate": 17.019068,
+      "symbol": "$"
+    },
+    "MWK": {
+      "iso": "MWK",
+      "name": "Malawi Kwacha",
+      "slug": "malawi-kwacha",
+      "rate": 1732.945192,
+      "symbol": ""
+    },
+    "MVR": {
+      "iso": "MVR",
+      "name": "Maldives (Maldive Islands) Rufiyaa",
+      "slug": "maldives-maldive-islands-rufiyaa",
+      "rate": 15.46,
+      "symbol": ""
+    },
+    "MUR": {
+      "iso": "MUR",
+      "name": "Mauritius Rupee",
+      "slug": "mauritius-rupee",
+      "rate": 46.326788,
+      "symbol": "₨"
+    },
+    "MRU": {
+      "iso": "MRU",
+      "name": "Mauritania Ouguiya",
+      "slug": "mauritania-ouguiya",
+      "rate": 39.7
+    },
+    "MOP": {
+      "iso": "MOP",
+      "name": "Macau Pataca",
+      "slug": "macau-pataca",
+      "rate": 8.060375,
+      "symbol": ""
+    },
+    "MNT": {
+      "iso": "MNT",
+      "name": "Mongolia Tughrik",
+      "slug": "mongolia-tughrik",
+      "rate": 3450,
+      "symbol": "₮"
+    },
+    "MMK": {
+      "iso": "MMK",
+      "name": "Myanmar (Burma) Kyat",
+      "slug": "myanmar-burma-kyat",
+      "rate": 2099.539998,
+      "symbol": ""
+    },
+    "MKD": {
+      "iso": "MKD",
+      "name": "Macedonia Denar",
+      "slug": "macedonia-denar",
+      "rate": 57.446401,
+      "symbol": "ден"
+    },
+    "MGA": {
+      "iso": "MGA",
+      "name": "Madagascar Ariary",
+      "slug": "madagascar-ariary",
+      "rate": 4443.147129,
+      "symbol": ""
+    },
+    "MDL": {
+      "iso": "MDL",
+      "name": "Moldova Leu",
+      "slug": "moldova-leu",
+      "rate": 17.696555,
+      "symbol": ""
+    },
+    "MAD": {
+      "iso": "MAD",
+      "name": "Morocco Dirham",
+      "slug": "morocco-dirham",
+      "rate": 10.119035,
+      "symbol": ""
+    },
+    "LYD": {
+      "iso": "LYD",
+      "name": "Libya Dinar",
+      "slug": "libya-dinar",
+      "rate": 4.87,
+      "symbol": ""
+    },
+    "LSL": {
+      "iso": "LSL",
+      "name": "Lesotho Loti",
+      "slug": "lesotho-loti",
+      "rate": 18.877219,
+      "symbol": ""
+    },
+    "LRD": {
+      "iso": "LRD",
+      "name": "Liberia Dollar",
+      "slug": "liberia-dollar",
+      "rate": 193.300002,
+      "symbol": "$"
+    },
+    "LKR": {
+      "iso": "LKR",
+      "name": "Sri Lanka Rupee",
+      "slug": "sri-lanka-rupee",
+      "rate": 296.3628,
+      "symbol": "₨"
+    },
+    "LBP": {
+      "iso": "LBP",
+      "name": "Lebanon Pound",
+      "slug": "lebanon-pound",
+      "rate": 89650,
+      "symbol": "£"
+    },
+    "LAK": {
+      "iso": "LAK",
+      "name": "Laos Kip",
+      "slug": "laos-kip",
+      "rate": 21328.794523,
+      "symbol": "₭"
+    },
+    "KZT": {
+      "iso": "KZT",
+      "name": "Kazakhstan Tenge",
+      "slug": "kazakhstan-tenge",
+      "rate": 443.270272,
+      "symbol": "лв"
+    },
+    "KYD": {
+      "iso": "KYD",
+      "name": "Cayman Islands Dollar",
+      "slug": "cayman-islands-dollar",
+      "rate": 0.833155,
+      "symbol": "$"
+    },
+    "KWD": {
+      "iso": "KWD",
+      "name": "Kuwait Dinar",
+      "slug": "kuwait-dinar",
+      "rate": 0.30782,
+      "symbol": ""
+    },
+    "KRW": {
+      "iso": "KRW",
+      "name": "Korea (South) Won",
+      "slug": "korea-south-won",
+      "rate": 1375.452347,
+      "symbol": "₩"
+    },
+    "KPW": {
+      "iso": "KPW",
+      "name": "Korea (North) Won",
+      "slug": "korea-north-won",
+      "rate": 900,
+      "symbol": "₩"
+    },
+    "KMF": {
+      "iso": "KMF",
+      "name": "Comorian Franc",
+      "slug": "comorian-franc",
+      "rate": 458.874913,
+      "symbol": ""
+    },
+    "KHR": {
+      "iso": "KHR",
+      "name": "Cambodia Riel",
+      "slug": "cambodia-riel",
+      "rate": 4060.78644,
+      "symbol": "៛"
+    },
+    "KGS": {
+      "iso": "KGS",
+      "name": "Kyrgyzstan Som",
+      "slug": "kyrgyzstan-som",
+      "rate": 88.6618,
+      "symbol": "лв"
+    },
+    "KES": {
+      "iso": "KES",
+      "name": "Kenya Shilling",
+      "slug": "kenya-shilling",
+      "rate": 135,
+      "symbol": ""
+    },
+    "JPY": {
+      "iso": "JPY",
+      "name": "Japan Yen",
+      "slug": "japan-yen",
+      "rate": 156.7191,
+      "symbol": "¥"
+    },
+    "JOD": {
+      "iso": "JOD",
+      "name": "Jordan Dinar",
+      "slug": "jordan-dinar",
+      "rate": 0.7086,
+      "symbol": ""
+    },
+    "JMD": {
+      "iso": "JMD",
+      "name": "Jamaica Dollar",
+      "slug": "jamaica-dollar",
+      "rate": 156.265199,
+      "symbol": "J$"
+    },
+    "JEP": {
+      "iso": "JEP",
+      "name": "Jersey Pound",
+      "slug": "jersey-pound",
+      "rate": 0.796729,
+      "symbol": "£"
+    },
+    "ISK": {
+      "iso": "ISK",
+      "name": "Iceland Krona",
+      "slug": "iceland-krona",
+      "rate": 140.05,
+      "symbol": "kr"
+    },
+    "IRR": {
+      "iso": "IRR",
+      "name": "Iran Rial",
+      "slug": "iran-rial",
+      "rate": 42075,
+      "symbol": "﷼"
+    },
+    "IQD": {
+      "iso": "IQD",
+      "name": "Iraq Dinar",
+      "slug": "iraq-dinar",
+      "rate": 1309.763483,
+      "symbol": ""
+    },
+    "INR": {
+      "iso": "INR",
+      "name": "India Rupee",
+      "slug": "india-rupee",
+      "rate": 83.430806,
+      "symbol": ""
+    },
+    "IMP": {
+      "iso": "IMP",
+      "name": "Isle of Man Pound",
+      "slug": "isle-of-man-pound",
+      "rate": 0.796729
+    },
+    "ILS": {
+      "iso": "ILS",
+      "name": "Israel Shekel",
+      "slug": "israel-shekel",
+      "rate": 3.7626,
+      "symbol": "₪"
+    },
+    "IDR": {
+      "iso": "IDR",
+      "name": "Indonesia Rupiah",
+      "slug": "indonesia-rupiah",
+      "rate": 16242.85,
+      "symbol": "Rp"
+    },
+    "HUF": {
+      "iso": "HUF",
+      "name": "Hungary Forint",
+      "slug": "hungary-forint",
+      "rate": 365.092119,
+      "symbol": "Ft"
+    },
+    "HTG": {
+      "iso": "HTG",
+      "name": "Haiti Gourde",
+      "slug": "haiti-gourde",
+      "rate": 132.552832,
+      "symbol": ""
+    },
+    "HRK": {
+      "iso": "HRK",
+      "name": "Croatia Kuna",
+      "slug": "croatia-kuna",
+      "rate": 7.030265,
+      "symbol": "kn"
+    },
+    "HNL": {
+      "iso": "HNL",
+      "name": "Honduras Lempira",
+      "slug": "honduras-lempira",
+      "rate": 24.692383,
+      "symbol": "L"
+    },
+    "HKD": {
+      "iso": "HKD",
+      "name": "Hong Kong Dollar",
+      "slug": "hong-kong-dollar",
+      "rate": 7.826497,
+      "symbol": "$"
+    },
+    "GYD": {
+      "iso": "GYD",
+      "name": "Guyana Dollar",
+      "slug": "guyana-dollar",
+      "rate": 209.168332,
+      "symbol": "$"
+    },
+    "GTQ": {
+      "iso": "GTQ",
+      "name": "Guatemala Quetzal",
+      "slug": "guatemala-quetzal",
+      "rate": 7.787287,
+      "symbol": "Q"
+    },
+    "GNF": {
+      "iso": "GNF",
+      "name": "Guinea Franc",
+      "slug": "guinea-franc",
+      "rate": 8600,
+      "symbol": ""
+    },
+    "GMD": {
+      "iso": "GMD",
+      "name": "Gambia Dalasi",
+      "slug": "gambia-dalasi",
+      "rate": 67.925,
+      "symbol": ""
+    },
+    "GIP": {
+      "iso": "GIP",
+      "name": "Gibraltar Pound",
+      "slug": "gibraltar-pound",
+      "rate": 0.796729,
+      "symbol": "£"
+    },
+    "GHS": {
+      "iso": "GHS",
+      "name": "Ghana Cedi",
+      "slug": "ghana-cedi",
+      "rate": 13.597523,
+      "symbol": "¢"
+    },
+    "GGP": {
+      "iso": "GGP",
+      "name": "Guernsey Pound",
+      "slug": "guernsey-pound",
+      "rate": 0.796729
+    },
+    "GEL": {
+      "iso": "GEL",
+      "name": "Georgia Lari",
+      "slug": "georgia-lari",
+      "rate": 2.68,
+      "symbol": ""
+    },
+    "GBP": {
+      "iso": "GBP",
+      "name": "United Kingdom Pound",
+      "slug": "united-kingdom-pound",
+      "rate": 0.796729,
+      "symbol": "£"
+    },
+    "FKP": {
+      "iso": "FKP",
+      "name": "Falkland Islands (Malvinas) Pound",
+      "slug": "falkland-islands-malvinas-pound",
+      "rate": 0.796729,
+      "symbol": "£"
+    },
+    "FJD": {
+      "iso": "FJD",
+      "name": "Fiji Dollar",
+      "slug": "fiji-dollar",
+      "rate": 2.2564,
+      "symbol": "$"
+    },
+    "EUR": {
+      "iso": "EUR",
+      "name": "Euro",
+      "slug": "euro-member-countries",
+      "rate": 0.933119,
+      "symbol": "€"
+    },
+    "ETB": {
+      "iso": "ETB",
+      "name": "Ethiopia Birr",
+      "slug": "ethiopia-birr",
+      "rate": 57.386169,
+      "symbol": ""
+    },
+    "EGP": {
+      "iso": "EGP",
+      "name": "Egypt Pound",
+      "slug": "egypt-pound",
+      "rate": 47.852,
+      "symbol": "£"
+    },
+    "DZD": {
+      "iso": "DZD",
+      "name": "Algeria Dinar",
+      "slug": "algeria-dinar",
+      "rate": 134.405409,
+      "symbol": ""
+    },
+    "DOP": {
+      "iso": "DOP",
+      "name": "Dominican Republic Peso",
+      "slug": "dominican-republic-peso",
+      "rate": 58.489357,
+      "symbol": "RD$"
+    },
+    "DKK": {
+      "iso": "DKK",
+      "name": "Denmark Krone",
+      "slug": "denmark-krone",
+      "rate": 6.959298,
+      "symbol": "kr"
+    },
+    "DJF": {
+      "iso": "DJF",
+      "name": "Djibouti Franc",
+      "slug": "djibouti-franc",
+      "rate": 178.040007,
+      "symbol": ""
+    },
+    "CZK": {
+      "iso": "CZK",
+      "name": "Czech Republic Koruna",
+      "slug": "czech-republic-koruna",
+      "rate": 23.4669,
+      "symbol": "Kč"
+    },
+    "CVE": {
+      "iso": "CVE",
+      "name": "Cape Verde Escudo",
+      "slug": "cape-verde-escudo",
+      "rate": 102.863939,
+      "symbol": ""
+    },
+    "CUP": {
+      "iso": "CUP",
+      "name": "Cuba Peso",
+      "slug": "cuba-peso",
+      "rate": 25.75,
+      "symbol": "₱"
+    },
+    "CUC": {
+      "iso": "CUC",
+      "name": "Cuba Convertible Peso",
+      "slug": "cuba-convertible-peso",
+      "rate": 1
+    },
+    "CRC": {
+      "iso": "CRC",
+      "name": "Costa Rica Colon",
+      "slug": "costa-rica-colon",
+      "rate": 508.749858,
+      "symbol": "₡"
+    },
+    "COP": {
+      "iso": "COP",
+      "name": "Colombia Peso",
+      "slug": "colombia-peso",
+      "rate": 3917.23,
+      "symbol": "$"
+    },
+    "CNY": {
+      "iso": "CNY",
+      "name": "China Yuan Renminbi",
+      "slug": "china-yuan-renminbi",
+      "rate": 7.2403,
+      "symbol": "¥"
+    },
+    "CLP": {
+      "iso": "CLP",
+      "name": "Chile Peso",
+      "slug": "chile-peso",
+      "rate": 942.44,
+      "symbol": "$"
+    },
+    "CHF": {
+      "iso": "CHF",
+      "name": "Switzerland Franc",
+      "slug": "switzerland-franc",
+      "rate": 0.910818,
+      "symbol": "CHF"
+    },
+    "CDF": {
+      "iso": "CDF",
+      "name": "Congo/Kinshasa Franc",
+      "slug": "congokinshasa-franc",
+      "rate": 2800,
+      "symbol": ""
+    },
+    "CAD": {
+      "iso": "CAD",
+      "name": "Canada Dollar",
+      "slug": "canada-dollar",
+      "rate": 1.365145,
+      "symbol": "$"
+    },
+    "BZD": {
+      "iso": "BZD",
+      "name": "Belize Dollar",
+      "slug": "belize-dollar",
+      "rate": 2.015299,
+      "symbol": "BZ$"
+    },
+    "BYN": {
+      "iso": "BYN",
+      "name": "Belarus Ruble",
+      "slug": "belarus-ruble",
+      "rate": 3.271981
+    },
+    "BWP": {
+      "iso": "BWP",
+      "name": "Botswana Pula",
+      "slug": "botswana-pula",
+      "rate": 13.781743,
+      "symbol": "P"
+    },
+    "BTN": {
+      "iso": "BTN",
+      "name": "Bhutan Ngultrum",
+      "slug": "bhutan-ngultrum",
+      "rate": 83.45861,
+      "symbol": ""
+    },
+    "BSD": {
+      "iso": "BSD",
+      "name": "Bahamas Dollar",
+      "slug": "bahamas-dollar",
+      "rate": 1,
+      "symbol": "$"
+    },
+    "BRL": {
+      "iso": "BRL",
+      "name": "Brazil Real",
+      "slug": "brazil-real",
+      "rate": 5.1159,
+      "symbol": "R$"
+    },
+    "BOB": {
+      "iso": "BOB",
+      "name": "Bolivian Bolíviano",
+      "slug": "bolivia-bolviano",
+      "rate": 6.943602,
+      "symbol": "$b"
+    },
+    "BND": {
+      "iso": "BND",
+      "name": "Brunei Darussalam Dollar",
+      "slug": "brunei-darussalam-dollar",
+      "rate": 1.362718,
+      "symbol": "$"
+    },
+    "BMD": {
+      "iso": "BMD",
+      "name": "Bermuda Dollar",
+      "slug": "bermuda-dollar",
+      "rate": 1,
+      "symbol": "$"
+    },
+    "BIF": {
+      "iso": "BIF",
+      "name": "Burundi Franc",
+      "slug": "burundi-franc",
+      "rate": 2874,
+      "symbol": ""
+    },
+    "BHD": {
+      "iso": "BHD",
+      "name": "Bahrain Dinar",
+      "slug": "bahrain-dinar",
+      "rate": 0.377025,
+      "symbol": ""
+    },
+    "BGN": {
+      "iso": "BGN",
+      "name": "Bulgaria Lev",
+      "slug": "bulgaria-lev",
+      "rate": 1.825458,
+      "symbol": "лв"
+    },
+    "BDT": {
+      "iso": "BDT",
+      "name": "Bangladesh Taka",
+      "slug": "bangladesh-taka",
+      "rate": 109.725274,
+      "symbol": ""
+    },
+    "BBD": {
+      "iso": "BBD",
+      "name": "Barbados Dollar",
+      "slug": "barbados-dollar",
+      "rate": 2,
+      "symbol": "$"
+    },
+    "BAM": {
+      "iso": "BAM",
+      "name": "Bosnia and Herzegovina Convertible Marka",
+      "slug": "bosnia-and-herzegovina-convertible-marka",
+      "rate": 1.824525,
+      "symbol": "KM"
+    },
+    "AZN": {
+      "iso": "AZN",
+      "name": "Azerbaijan Manat",
+      "slug": "azerbaijan-manat",
+      "rate": 1.7,
+      "symbol": "₼"
+    },
+    "AWG": {
+      "iso": "AWG",
+      "name": "Aruba Guilder",
+      "slug": "aruba-guilder",
+      "rate": 1.8,
+      "symbol": "ƒ"
+    },
+    "AUD": {
+      "iso": "AUD",
+      "name": "Australia Dollar",
+      "slug": "australia-dollar",
+      "rate": 1.524049,
+      "symbol": "$"
+    },
+    "ARS": {
+      "iso": "ARS",
+      "name": "Argentina Peso",
+      "slug": "argentina-peso",
+      "rate": 876.2418,
+      "symbol": "$"
+    },
+    "AOA": {
+      "iso": "AOA",
+      "name": "Angola Kwanza",
+      "slug": "angola-kwanza",
+      "rate": 836.5,
+      "symbol": ""
+    },
+    "ANG": {
+      "iso": "ANG",
+      "name": "Netherlands Antilles Guilder",
+      "slug": "netherlands-antilles-guilder",
+      "rate": 1.801789,
+      "symbol": "ƒ"
+    },
+    "AMD": {
+      "iso": "AMD",
+      "name": "Armenia Dram",
+      "slug": "armenia-dram",
+      "rate": 387.980694,
+      "symbol": "դր"
+    },
+    "ALL": {
+      "iso": "ALL",
+      "name": "Albania Lek",
+      "slug": "albania-lek",
+      "rate": 93.918792,
+      "symbol": "L"
+    },
+    "AFN": {
+      "iso": "AFN",
+      "name": "Afghanistan Afghani",
+      "slug": "afghanistan-afghani",
+      "rate": 71.999996,
+      "symbol": "؋"
+    },
+    "AED": {
+      "iso": "AED",
+      "name": "United Arab Emirates Dirham",
+      "slug": "united-arab-emirates-dirham",
+      "rate": 3.6729,
+      "symbol": "د.إ"
+    },
+    "ERN": {
+      "iso": "ERN",
+      "name": "Ethernity",
+      "slug": "eternity",
+      "rate": 15,
+      "symbol": ""
+    }
+  },
+  "_id": "2417191af7fbfda80533ff931ed1117d7be560cbe64f23228907e785f08d063f"
+}
