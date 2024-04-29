@@ -1,0 +1,43 @@
+.app {
+  margin: 0;
+  padding: 1rem;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+footer .app-title {
+  font-weight: bold;
+}
+
+footer a.license {
+  display: inline-block;
+}
+
+footer a.license img {
+  height: 16px !important;
+  margin-left: 3px;
+  vertical-align: text-bottom;
+}
+
+.info {
+  color: royalblue;
+}
+
+.error {
+  color: indianred;
+}
+
+.block {
+  display: block;
+}
+
+.small {
+  font-size: small;
+}
