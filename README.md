@@ -21,4 +21,4 @@ This project offers comprehensive documentation to ensure you get the most out o
 
 ## Getting Started
 
-Refer to the accompanying [Getting Started](getting_started.md) file  for detailed setup instructions. This guide should include:
+Refer to the accompanying [Getting Started](getting_started.md) file  for detailed setup instructions. 

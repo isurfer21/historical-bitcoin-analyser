@@ -1,0 +1,90 @@
+@startuml
+
+skinparam linetype ortho
+
+scale max 1920 width
+left to right direction
+
+skinparam nodesep 15
+skinparam ranksep 31
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+' oval
+skinparam usecase {
+  borderThickness 0.5
+}
+
+' rectangle
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+' component
+skinparam component {
+  borderThickness 1
+}
+
+
+(api-service)
+(App)
+(<b>App.test</b>)
+(footer)
+(form-bpi)
+(header)
+(report-bpi)
+(report-slice)
+(reportWebVitals)
+(select-currency)
+(<b>setupTests</b>)
+(<b>src</b>)
+(store)
+
+package "Dependencies" {
+  [@reduxjs]
+  [@testing-library]
+  [react]
+  [react-dom]
+  [react-redux]
+  [react-router-dom]
+}
+
+(App) --> (footer)
+(App) --> (form-bpi)
+(App) --> (header)
+(App) ---> [react-router-dom]
+(App) --> (report-bpi)
+(<b>App.test</b>) ---[thickness=1]> [@testing-library]
+(<b>App.test</b>) -[thickness=1]> (App)
+(form-bpi) ----> [react]
+(form-bpi) ----> [react-redux]
+(form-bpi) ----> [react-router-dom]
+(form-bpi) ---> (report-slice)
+(form-bpi) --> (select-currency)
+(report-bpi) --> (api-service)
+(report-bpi) ----> [react]
+(report-bpi) ----> [react-redux]
+(report-bpi) ----> [react-router-dom]
+(report-bpi) ---> (report-slice)
+(report-slice) ----> [@reduxjs]
+(select-currency) --> (api-service)
+(select-currency) ----> [react]
+(<b>setupTests</b>) ---[thickness=1]> [@testing-library]
+(<b>src</b>) -[thickness=1]> (App)
+(<b>src</b>) ---[thickness=1]> [react]
+(<b>src</b>) ---[thickness=1]> [react-dom]
+(<b>src</b>) ---[thickness=1]> [react-redux]
+(<b>src</b>) ---[thickness=1]> [react-router-dom]
+(<b>src</b>) -[thickness=1]> (reportWebVitals)
+(<b>src</b>) -[thickness=1]> (store)
+(store) ----> [@reduxjs]
+(store) --> (report-slice)
+
+@enduml

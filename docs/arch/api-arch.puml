@@ -1,0 +1,56 @@
+@startuml
+
+skinparam linetype ortho
+
+scale max 1920 width
+top to bottom direction
+
+skinparam nodesep 12
+skinparam ranksep 24
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+' oval
+skinparam usecase {
+  borderThickness 0.5
+}
+
+' rectangle
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+' component
+skinparam component {
+  borderThickness 1
+}
+
+
+(<b>api</b>)
+(cli-parser)
+(currencies-list)
+(exchange-rates)
+(hbp-extractor)
+(historical-prices)
+(http-wrapper)
+(rest-api)
+
+
+(<b>api</b>) -[thickness=1]> (cli-parser)
+(<b>api</b>) --[thickness=1]> (currencies-list)
+(<b>api</b>) --[thickness=1]> (hbp-extractor)
+(<b>api</b>) -[thickness=1]> (rest-api)
+(currencies-list) --> (http-wrapper)
+(exchange-rates) --> (http-wrapper)
+(hbp-extractor) --> (exchange-rates)
+(hbp-extractor) --> (historical-prices)
+(historical-prices) --> (http-wrapper)
+
+@enduml

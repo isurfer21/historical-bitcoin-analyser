@@ -1,0 +1,21 @@
+@startuml
+
+skin rose
+skinparam linetype ortho
+skinparam monochrome true
+skinparam shadowing false
+
+actor "Requests" as req
+agent "Reverse Proxy" as rpx
+agent "App server" as app
+agent "API server" as api
+agent "Doc server" as doc
+agent "Mock server" as mock
+
+req <--> rpx 
+rpx <--> app
+rpx <--> api
+rpx <--> doc
+rpx <--> mock
+
+@enduml

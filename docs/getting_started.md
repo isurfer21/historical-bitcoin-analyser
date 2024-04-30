@@ -1,5 +1,11 @@
 # Getting Started
 
+Understanding the architecture of system would be beneficial so that all of the instructions that are listed below have some significance.
+
+### System Architecture
+
+![](./arch/system-arch.svg)
+
 ## Prerequisite
 
 - Node v20.12.2 or above should be installed.
