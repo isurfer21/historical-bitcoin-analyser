@@ -1,7 +1,7 @@
 {
   "/api": "http://localhost:8081",
   "/mock": "http://localhost:8083",
-  "/static": "http://localhost:8082/static",
+  "/static": "http://localhost:3000/static",
   "/docs": "http://localhost:8084",
-  "/": "http://localhost:8082"
+  "/": "http://localhost:3000"
 }

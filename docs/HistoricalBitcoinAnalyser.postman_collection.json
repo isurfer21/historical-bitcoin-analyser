@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "137d1c43-880f-4897-b269-e1d53b743d04",
+		"name": "Historical Bitcoin Analyser",
+		"description": "This is an API that allows you to pick the range and currency to obtain the price index in terms of custom currency, so you can check the historical bitcoin price index. Additionally, it would offer a list of all the world's currencies.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5441084"
+	},
+	"item": [
+		{
+			"name": "Service Health Check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/api/",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						""
+					]
+				},
+				"description": "**Service Health Check**\n\nYou can use a REST client tool to send a GET request to this API endpoint URL to check if an API server is running. If the API is up and running, you should receive a response with an HTTP status code 200 OK."
+			},
+			"response": [
+				{
+					"name": "Service Health Check Example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								""
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "content-type",
+							"value": "application/json"
+						},
+						{
+							"key": "date",
+							"value": "Mon, 29 Apr 2024 20:27:04 GMT"
+						},
+						{
+							"key": "connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "keep-alive",
+							"value": "timeout=5"
+						},
+						{
+							"key": "transfer-encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"API service is active!\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Supported Currencies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/api/supported-currencies",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"supported-currencies"
+					]
+				},
+				"description": "**Supported Currencies**\n\nLists all the currencies with respect to their countries, across globe based on the ISO key of the currency."
+			},
+			"response": [
+				{
+					"name": "Supported Currencies Example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/supported-currencies",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"supported-currencies"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "content-type",
+							"value": "application/json"
+						},
+						{
+							"key": "date",
+							"value": "Mon, 29 Apr 2024 20:24:59 GMT"
+						},
+						{
+							"key": "connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "keep-alive",
+							"value": "timeout=5"
+						},
+						{
+							"key": "transfer-encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"currency\": \"AED\",\n        \"country\": \"United Arab Emirates Dirham\"\n    },\n    {\n        \"currency\": \"AFN\",\n        \"country\": \"Afghanistan Afghani\"\n    },\n    {\n        \"currency\": \"ALL\",\n        \"country\": \"Albania Lek\"\n    },\n    {\n        \"currency\": \"AMD\",\n        \"country\": \"Armenia Dram\"\n    },\n    {\n        \"currency\": \"ANG\",\n        \"country\": \"Netherlands Antilles Guilder\"\n    },\n    {\n        \"currency\": \"AOA\",\n        \"country\": \"Angola Kwanza\"\n    },\n    {\n        \"currency\": \"ARS\",\n        \"country\": \"Argentina Peso\"\n    },\n    {\n        \"currency\": \"AUD\",\n        \"country\": \"Australia Dollar\"\n    },\n    {\n        \"currency\": \"AWG\",\n        \"country\": \"Aruba Guilder\"\n    },\n    {\n        \"currency\": \"AZN\",\n        \"country\": \"Azerbaijan Manat\"\n    },\n    {\n        \"currency\": \"BAM\",\n        \"country\": \"Bosnia and Herzegovina Convertible Marka\"\n    },\n    {\n        \"currency\": \"BBD\",\n        \"country\": \"Barbados Dollar\"\n    },\n    {\n        \"currency\": \"BDT\",\n        \"country\": \"Bangladesh Taka\"\n    },\n    {\n        \"currency\": \"BGN\",\n        \"country\": \"Bulgaria Lev\"\n    },\n    {\n        \"currency\": \"BHD\",\n        \"country\": \"Bahrain Dinar\"\n    },\n    {\n        \"currency\": \"BIF\",\n        \"country\": \"Burundi Franc\"\n    },\n    {\n        \"currency\": \"BMD\",\n        \"country\": \"Bermuda Dollar\"\n    },\n    {\n        \"currency\": \"BND\",\n        \"country\": \"Brunei Darussalam Dollar\"\n    },\n    {\n        \"currency\": \"BOB\",\n        \"country\": \"Bolivian Bolíviano\"\n    },\n    {\n        \"currency\": \"BRL\",\n        \"country\": \"Brazil Real\"\n    },\n    {\n        \"currency\": \"BSD\",\n        \"country\": \"Bahamas Dollar\"\n    },\n    {\n        \"currency\": \"BTC\",\n        \"country\": \"Bitcoin\"\n    },\n    {\n        \"currency\": \"BTN\",\n        \"country\": \"Bhutan Ngultrum\"\n    },\n    {\n        \"currency\": \"BWP\",\n        \"country\": \"Botswana Pula\"\n    },\n    {\n        \"currency\": \"BYR\",\n        \"country\": \"Belarus Ruble\"\n    },\n    {\n        \"currency\": \"BZD\",\n        \"country\": \"Belize Dollar\"\n    },\n    {\n        \"currency\": \"CAD\",\n        \"country\": \"Canada Dollar\"\n    },\n    {\n        \"currency\": \"CDF\",\n        \"country\": \"Congo/Kinshasa Franc\"\n    },\n    {\n        \"currency\": \"CHF\",\n        \"country\": \"Switzerland Franc\"\n    },\n    {\n        \"currency\": \"CLF\",\n        \"country\": \"Chilean Unit of Account (UF)\"\n    },\n    {\n        \"currency\": \"CLP\",\n        \"country\": \"Chile Peso\"\n    },\n    {\n        \"currency\": \"CNY\",\n        \"country\": \"China Yuan Renminbi\"\n    },\n    {\n        \"currency\": \"COP\",\n        \"country\": \"Colombia Peso\"\n    },\n    {\n        \"currency\": \"CRC\",\n        \"country\": \"Costa Rica Colon\"\n    },\n    {\n        \"currency\": \"CUC\",\n        \"country\": \"Cuba Convertible Peso\"\n    },\n    {\n        \"currency\": \"CUP\",\n        \"country\": \"Cuba Peso\"\n    },\n    {\n        \"currency\": \"CVE\",\n        \"country\": \"Cape Verde Escudo\"\n    },\n    {\n        \"currency\": \"CZK\",\n        \"country\": \"Czech Republic Koruna\"\n    },\n    {\n        \"currency\": \"DJF\",\n        \"country\": \"Djibouti Franc\"\n    },\n    {\n        \"currency\": \"DKK\",\n        \"country\": \"Denmark Krone\"\n    },\n    {\n        \"currency\": \"DOP\",\n        \"country\": \"Dominican Republic Peso\"\n    },\n    {\n        \"currency\": \"DZD\",\n        \"country\": \"Algeria Dinar\"\n    },\n    {\n        \"currency\": \"EGP\",\n        \"country\": \"Egypt Pound\"\n    },\n    {\n        \"currency\": \"ERN\",\n        \"country\": \"Ethernity\"\n    },\n    {\n        \"currency\": \"ETB\",\n        \"country\": \"Ethiopia Birr\"\n    },\n    {\n        \"currency\": \"EUR\",\n        \"country\": \"Euro\"\n    },\n    {\n        \"currency\": \"FJD\",\n        \"country\": \"Fiji Dollar\"\n    },\n    {\n        \"currency\": \"FKP\",\n        \"country\": \"Falkland Islands (Malvinas) Pound\"\n    },\n    {\n        \"currency\": \"GBP\",\n        \"country\": \"United Kingdom Pound\"\n    },\n    {\n        \"currency\": \"GEL\",\n        \"country\": \"Georgia Lari\"\n    },\n    {\n        \"currency\": \"GGP\",\n        \"country\": \"Guernsey Pound\"\n    },\n    {\n        \"currency\": \"GHS\",\n        \"country\": \"Ghana Cedi\"\n    },\n    {\n        \"currency\": \"GIP\",\n        \"country\": \"Gibraltar Pound\"\n    },\n    {\n        \"currency\": \"GMD\",\n        \"country\": \"Gambia Dalasi\"\n    },\n    {\n        \"currency\": \"GNF\",\n        \"country\": \"Guinea Franc\"\n    },\n    {\n        \"currency\": \"GTQ\",\n        \"country\": \"Guatemala Quetzal\"\n    },\n    {\n        \"currency\": \"GYD\",\n        \"country\": \"Guyana Dollar\"\n    },\n    {\n        \"currency\": \"HKD\",\n        \"country\": \"Hong Kong Dollar\"\n    },\n    {\n        \"currency\": \"HNL\",\n        \"country\": \"Honduras Lempira\"\n    },\n    {\n        \"currency\": \"HRK\",\n        \"country\": \"Croatia Kuna\"\n    },\n    {\n        \"currency\": \"HTG\",\n        \"country\": \"Haiti Gourde\"\n    },\n    {\n        \"currency\": \"HUF\",\n        \"country\": \"Hungary Forint\"\n    },\n    {\n        \"currency\": \"IDR\",\n        \"country\": \"Indonesia Rupiah\"\n    },\n    {\n        \"currency\": \"ILS\",\n        \"country\": \"Israel Shekel\"\n    },\n    {\n        \"currency\": \"IMP\",\n        \"country\": \"Isle of Man Pound\"\n    },\n    {\n        \"currency\": \"INR\",\n        \"country\": \"India Rupee\"\n    },\n    {\n        \"currency\": \"IQD\",\n        \"country\": \"Iraq Dinar\"\n    },\n    {\n        \"currency\": \"IRR\",\n        \"country\": \"Iran Rial\"\n    },\n    {\n        \"currency\": \"ISK\",\n        \"country\": \"Iceland Krona\"\n    },\n    {\n        \"currency\": \"JEP\",\n        \"country\": \"Jersey Pound\"\n    },\n    {\n        \"currency\": \"JMD\",\n        \"country\": \"Jamaica Dollar\"\n    },\n    {\n        \"currency\": \"JOD\",\n        \"country\": \"Jordan Dinar\"\n    },\n    {\n        \"currency\": \"JPY\",\n        \"country\": \"Japan Yen\"\n    },\n    {\n        \"currency\": \"KES\",\n        \"country\": \"Kenya Shilling\"\n    },\n    {\n        \"currency\": \"KGS\",\n        \"country\": \"Kyrgyzstan Som\"\n    },\n    {\n        \"currency\": \"KHR\",\n        \"country\": \"Cambodia Riel\"\n    },\n    {\n        \"currency\": \"KMF\",\n        \"country\": \"Comorian Franc\"\n    },\n    {\n        \"currency\": \"KPW\",\n        \"country\": \"Korea (North) Won\"\n    },\n    {\n        \"currency\": \"KRW\",\n        \"country\": \"Korea (South) Won\"\n    },\n    {\n        \"currency\": \"KWD\",\n        \"country\": \"Kuwait Dinar\"\n    },\n    {\n        \"currency\": \"KYD\",\n        \"country\": \"Cayman Islands Dollar\"\n    },\n    {\n        \"currency\": \"KZT\",\n        \"country\": \"Kazakhstan Tenge\"\n    },\n    {\n        \"currency\": \"LAK\",\n        \"country\": \"Laos Kip\"\n    },\n    {\n        \"currency\": \"LBP\",\n        \"country\": \"Lebanon Pound\"\n    },\n    {\n        \"currency\": \"LKR\",\n        \"country\": \"Sri Lanka Rupee\"\n    },\n    {\n        \"currency\": \"LRD\",\n        \"country\": \"Liberia Dollar\"\n    },\n    {\n        \"currency\": \"LSL\",\n        \"country\": \"Lesotho Loti\"\n    },\n    {\n        \"currency\": \"LYD\",\n        \"country\": \"Libya Dinar\"\n    },\n    {\n        \"currency\": \"MAD\",\n        \"country\": \"Morocco Dirham\"\n    },\n    {\n        \"currency\": \"MDL\",\n        \"country\": \"Moldova Leu\"\n    },\n    {\n        \"currency\": \"MGA\",\n        \"country\": \"Madagascar Ariary\"\n    },\n    {\n        \"currency\": \"MKD\",\n        \"country\": \"Macedonia Denar\"\n    },\n    {\n        \"currency\": \"MMK\",\n        \"country\": \"Myanmar (Burma) Kyat\"\n    },\n    {\n        \"currency\": \"MNT\",\n        \"country\": \"Mongolia Tughrik\"\n    },\n    {\n        \"currency\": \"MOP\",\n        \"country\": \"Macau Pataca\"\n    },\n    {\n        \"currency\": \"MRU\",\n        \"country\": \"Mauritania Ouguiya\"\n    },\n    {\n        \"currency\": \"MUR\",\n        \"country\": \"Mauritius Rupee\"\n    },\n    {\n        \"currency\": \"MVR\",\n        \"country\": \"Maldives (Maldive Islands) Rufiyaa\"\n    },\n    {\n        \"currency\": \"MWK\",\n        \"country\": \"Malawi Kwacha\"\n    },\n    {\n        \"currency\": \"MXN\",\n        \"country\": \"Mexico Peso\"\n    },\n    {\n        \"currency\": \"MYR\",\n        \"country\": \"Malaysia Ringgit\"\n    },\n    {\n        \"currency\": \"MZN\",\n        \"country\": \"Mozambique Metical\"\n    },\n    {\n        \"currency\": \"NAD\",\n        \"country\": \"Namibia Dollar\"\n    },\n    {\n        \"currency\": \"NGN\",\n        \"country\": \"Nigeria Naira\"\n    },\n    {\n        \"currency\": \"NIO\",\n        \"country\": \"Nicaragua Cordoba\"\n    },\n    {\n        \"currency\": \"NOK\",\n        \"country\": \"Norway Krone\"\n    },\n    {\n        \"currency\": \"NPR\",\n        \"country\": \"Nepal Rupee\"\n    },\n    {\n        \"currency\": \"NZD\",\n        \"country\": \"New Zealand Dollar\"\n    },\n    {\n        \"currency\": \"OMR\",\n        \"country\": \"Oman Rial\"\n    },\n    {\n        \"currency\": \"PAB\",\n        \"country\": \"Panama Balboa\"\n    },\n    {\n        \"currency\": \"PEN\",\n        \"country\": \"Peru Sol\"\n    },\n    {\n        \"currency\": \"PGK\",\n        \"country\": \"Papua New Guinea Kina\"\n    },\n    {\n        \"currency\": \"PHP\",\n        \"country\": \"Philippines Piso\"\n    },\n    {\n        \"currency\": \"PKR\",\n        \"country\": \"Pakistan Rupee\"\n    },\n    {\n        \"currency\": \"PLN\",\n        \"country\": \"Poland Zloty\"\n    },\n    {\n        \"currency\": \"PYG\",\n        \"country\": \"Paraguay Guarani\"\n    },\n    {\n        \"currency\": \"QAR\",\n        \"country\": \"Qatar Riyal\"\n    },\n    {\n        \"currency\": \"RON\",\n        \"country\": \"Romania Leu\"\n    },\n    {\n        \"currency\": \"RSD\",\n        \"country\": \"Serbia Dinar\"\n    },\n    {\n        \"currency\": \"RUB\",\n        \"country\": \"Russia Ruble\"\n    },\n    {\n        \"currency\": \"RWF\",\n        \"country\": \"Rwanda Franc\"\n    },\n    {\n        \"currency\": \"SAR\",\n        \"country\": \"Saudi Arabia Riyal\"\n    },\n    {\n        \"currency\": \"SBD\",\n        \"country\": \"Solomon Islands Dollar\"\n    },\n    {\n        \"currency\": \"SCR\",\n        \"country\": \"Seychelles Rupee\"\n    },\n    {\n        \"currency\": \"SDG\",\n        \"country\": \"Sudan Pound\"\n    },\n    {\n        \"currency\": \"SEK\",\n        \"country\": \"Sweden Krona\"\n    },\n    {\n        \"currency\": \"SGD\",\n        \"country\": \"Singapore Dollar\"\n    },\n    {\n        \"currency\": \"SHP\",\n        \"country\": \"Saint Helena Pound\"\n    },\n    {\n        \"currency\": \"SLL\",\n        \"country\": \"Sierra Leone Leone\"\n    },\n    {\n        \"currency\": \"SOS\",\n        \"country\": \"Somali Shilling\"\n    },\n    {\n        \"currency\": \"SRD\",\n        \"country\": \"Suriname Dollar\"\n    },\n    {\n        \"currency\": \"STD\",\n        \"country\": \"São Tomé and Príncipe Dobra\"\n    },\n    {\n        \"currency\": \"STN\",\n        \"country\": \"São Tomé and Príncipe Dobra\"\n    },\n    {\n        \"currency\": \"SVC\",\n        \"country\": \"El Salvador Colon\"\n    },\n    {\n        \"currency\": \"SYP\",\n        \"country\": \"Syria Pound\"\n    },\n    {\n        \"currency\": \"SZL\",\n        \"country\": \"Swaziland Lilangeni\"\n    },\n    {\n        \"currency\": \"THB\",\n        \"country\": \"Thailand Baht\"\n    },\n    {\n        \"currency\": \"TJS\",\n        \"country\": \"Tajikistan Somoni\"\n    },\n    {\n        \"currency\": \"TMT\",\n        \"country\": \"Turkmenistan Manat\"\n    },\n    {\n        \"currency\": \"TND\",\n        \"country\": \"Tunisia Dinar\"\n    },\n    {\n        \"currency\": \"TOP\",\n        \"country\": \"Tonga Pa'anga\"\n    },\n    {\n        \"currency\": \"TRY\",\n        \"country\": \"Turkey Lira\"\n    },\n    {\n        \"currency\": \"TTD\",\n        \"country\": \"Trinidad and Tobago Dollar\"\n    },\n    {\n        \"currency\": \"TWD\",\n        \"country\": \"Taiwan New Dollar\"\n    },\n    {\n        \"currency\": \"TZS\",\n        \"country\": \"Tanzania Shilling\"\n    },\n    {\n        \"currency\": \"UAH\",\n        \"country\": \"Ukraine Hryvnia\"\n    },\n    {\n        \"currency\": \"UGX\",\n        \"country\": \"Uganda Shilling\"\n    },\n    {\n        \"currency\": \"USD\",\n        \"country\": \"United States Dollar\"\n    },\n    {\n        \"currency\": \"UYU\",\n        \"country\": \"Uruguay Peso\"\n    },\n    {\n        \"currency\": \"UZS\",\n        \"country\": \"Uzbekistan Som\"\n    },\n    {\n        \"currency\": \"VES\",\n        \"country\": \"Venezuelan Bolívar\"\n    },\n    {\n        \"currency\": \"VND\",\n        \"country\": \"Viet Nam Dong\"\n    },\n    {\n        \"currency\": \"VUV\",\n        \"country\": \"Vanuatu Vatu\"\n    },\n    {\n        \"currency\": \"WST\",\n        \"country\": \"Samoa Tala\"\n    },\n    {\n        \"currency\": \"XAF\",\n        \"country\": \"Communauté Financière Africaine (BEAC), CFA Franc BEAC\"\n    },\n    {\n        \"currency\": \"XAG\",\n        \"country\": \"Silver (troy ounce)\"\n    },\n    {\n        \"currency\": \"XAU\",\n        \"country\": \"Gold (troy ounce)\"\n    },\n    {\n        \"currency\": \"XBT\",\n        \"country\": \"Bitcoin\"\n    },\n    {\n        \"currency\": \"XCD\",\n        \"country\": \"East Caribbean Dollar\"\n    },\n    {\n        \"currency\": \"XDR\",\n        \"country\": \"International Monetary Fund (IMF) Special Drawing Rights\"\n    },\n    {\n        \"currency\": \"XOF\",\n        \"country\": \"Communauté Financière Africaine (BCEAO) Franc\"\n    },\n    {\n        \"currency\": \"XPF\",\n        \"country\": \"Comptoirs Français du Pacifique (CFP) Franc\"\n    },\n    {\n        \"currency\": \"YER\",\n        \"country\": \"Yemen Rial\"\n    },\n    {\n        \"currency\": \"ZAR\",\n        \"country\": \"South Africa Rand\"\n    },\n    {\n        \"currency\": \"ZMW\",\n        \"country\": \"Zambia Kwacha\"\n    },\n    {\n        \"currency\": \"ZWL\",\n        \"country\": \"Zimbabwean Dollar\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Historical Prices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/api/historical-prices?startDate=2024-04-16&endDate=2024-04-29&targetCurrency=INR",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"historical-prices"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2024-04-16"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-04-29"
+						},
+						{
+							"key": "targetCurrency",
+							"value": "INR"
+						}
+					]
+				},
+				"description": "**Historical Prices**\n\nLists the closing price of Bitcoin Price Index for each day within the range in terms of selected target currency.\n\nThe range can be provided by start date and end date parameters while target currency parameter can be provided to get the result in particular currency."
+			},
+			"response": [
+				{
+					"name": "Historical Prices Example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/historical-prices?startDate=2024-04-16&endDate=2024-04-29&targetCurrency=INR",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"historical-prices"
+							],
+							"query": [
+								{
+									"key": "startDate",
+									"value": "2024-04-16"
+								},
+								{
+									"key": "endDate",
+									"value": "2024-04-29"
+								},
+								{
+									"key": "targetCurrency",
+									"value": "INR"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "content-type",
+							"value": "application/json"
+						},
+						{
+							"key": "date",
+							"value": "Mon, 29 Apr 2024 20:22:12 GMT"
+						},
+						{
+							"key": "connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "keep-alive",
+							"value": "timeout=5"
+						},
+						{
+							"key": "transfer-encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"prices\": [\n        {\n            \"date\": \"2024-04-16\",\n            \"price\": \"5324496.2624\",\n            \"high\": false,\n            \"low\": false\n        },\n        {\n            \"date\": \"2024-04-17\",\n            \"price\": \"5111669.3432\",\n            \"high\": false,\n            \"low\": true\n        },\n        {\n            \"date\": \"2024-04-18\",\n            \"price\": \"5298234.5123\",\n            \"high\": false,\n            \"low\": false\n        },\n        {\n            \"date\": \"2024-04-19\",\n            \"price\": \"5324744.5319\",\n            \"high\": false,\n            \"low\": false\n        },\n        {\n            \"date\": \"2024-04-20\",\n            \"price\": \"5420654.4056\",\n            \"high\": false,\n            \"low\": false\n        },\n        {\n            \"date\": \"2024-04-21\",\n            \"price\": \"5418310.3369\",\n            \"high\": false,\n            \"low\": false\n        },\n        {\n            \"date\": \"2024-04-22\",\n            \"price\": \"5577270.0652\",\n            \"high\": true,\n            \"low\": false\n        },\n        {\n            \"date\": \"2024-04-23\",\n            \"price\": \"5540661.4535\",\n            \"high\": false,\n            \"low\": false\n        },\n        {\n            \"date\": \"2024-04-24\",\n            \"price\": \"5361135.7566\",\n            \"high\": false,\n            \"low\": false\n        },\n        {\n            \"date\": \"2024-04-25\",\n            \"price\": \"5379785.0503\",\n            \"high\": false,\n            \"low\": false\n        },\n        {\n            \"date\": \"2024-04-26\",\n            \"price\": \"5317958.3669\",\n            \"high\": false,\n            \"low\": false\n        },\n        {\n            \"date\": \"2024-04-27\",\n            \"price\": \"5290793.3501\",\n            \"high\": false,\n            \"low\": false\n        },\n        {\n            \"date\": \"2024-04-28\",\n            \"price\": \"5264067.7053\",\n            \"high\": false,\n            \"low\": false\n        },\n        {\n            \"date\": \"2024-04-29\",\n            \"price\": \"5256924.1044\",\n            \"high\": false,\n            \"low\": false\n        }\n    ]\n}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "server",
+			"value": "http://localhost:8080"
+		}
+	]
+}

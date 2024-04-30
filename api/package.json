@@ -1,13 +1,13 @@
 {
   "name": "hbp-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Historical Bitcoin Analyser API",
   "main": "api.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "start": "node api.js --port 8081",
+    "start": "node api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Abhishek Kumar",
