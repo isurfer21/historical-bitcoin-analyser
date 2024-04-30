@@ -47,6 +47,12 @@ To run all the servers along with reverse proxy, run the command
 sh run.sh
 ```
 
+As an alternative, you can use Docker to run it. To create the Docker image and then launch the container, run the command 
+
+```sh
+sh docker.sh
+```
+
 Now open the [localhost:8080](http://localhost:8080/) link in your browser to view the webapp. The port `8080` Has been used as a default port for the reverse proxy.
 
 Additionally, the [localhost:8080/api/](http://localhost:8080/api/) link can be used for API requests.
