@@ -17,7 +17,7 @@ This project offers comprehensive documentation to ensure you get the most out o
 - **OpenAPI**: Access the OpenAPI specification for a machine-readable representation of the API at [webpage](docs/openapi/index.html) (link to [spec](docs/openapi.yml)).
 - **Swagger**: Explore an interactive Swagger UI for exploring API endpoints and trying them out at [webpage](docs/swagger/index.html) (link to [spec](docs/swagger.json)).
 - **Postman Collection**: Import the Postman collection for convenient testing and integration with your development environment (link to [postman collection](docs/HistoricalBitcoinAnalyser.postman_collection.jso)).
-- **Getting Started Guide**: A detailed [API Guide](docs/api-guide.md) that walks users through the installation, configuration, and usage of the historical-bitcoin-analyser tool.
+- **Getting Started Guide**: A detailed [API Guide](docs/api-guide.md) & [App Guide](docs/app-guide.md) that walks users through the architecure of the historical-bitcoin-analyser tool.
 
 ## Getting Started
 
