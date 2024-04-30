@@ -45,3 +45,17 @@ It offers two main APIs:
 - The historical bitcoin prices are obtained from the `historical-prices` module by the `hbp-extractor` module, while the `exchange-rates` module provides the currency exchange rates.
 
 The `http-wrapper` module handles all http-based communications.
+
+## Challenges
+
+Probably, after Bullish acquired Coindesk, the Coindesk API documentation is no longer available on their official portal. The old API documentation link has been redirected to the homepage, where no API documentation link can be found, forcing me to practically hack their website to locate the most recent version of APIs.
+
+The historical closing price can be fetched via 2 APIs of Coindesk although different versions.
+
+- [api.coindesk.com/v1/bpi/historical/close](https://api.coindesk.com/v1/bpi/historical/close)
+
+  This API returns data within a specified range, however it has a cooling down period after a request, so it may return the same data for a while even if the parameters are different each time. Thus, using this API is unreliable.
+
+- [production.api.coindesk.com/v2/tb/price/values/BTC](https://production.api.coindesk.com/v2/tb/price/values/BTC)
+
+  Every time, this API returns the data in the chosen range depending on the range that is supplied. Lacks the cooling time found in the prior one. Therefore, using the API is more dependable.
