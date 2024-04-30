@@ -33,7 +33,7 @@ There are 2 configuration scripts files:
 
 ## Installation
 
-To install any necessary dependencies, run the command
+To resolve dependencies for generating the app build, run the command
 
 ```sh
 sh build.sh
