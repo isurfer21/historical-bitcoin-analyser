@@ -50,6 +50,8 @@ The `http-wrapper` module handles all http-based communications.
 
 Probably, after Bullish acquired Coindesk, the Coindesk API documentation is no longer available on their official portal. The old API documentation link has been redirected to the homepage, where no API documentation link can be found, forcing me to practically hack their website to locate the most recent version of APIs.
 
+### Finding the suitable API for historical prices 
+
 The historical closing price can be fetched via 2 APIs of Coindesk although different versions.
 
 - [api.coindesk.com/v1/bpi/historical/close](https://api.coindesk.com/v1/bpi/historical/close)
@@ -59,3 +61,11 @@ The historical closing price can be fetched via 2 APIs of Coindesk although diff
 - [production.api.coindesk.com/v2/tb/price/values/BTC](https://production.api.coindesk.com/v2/tb/price/values/BTC)
 
   Every time, this API returns the data in the chosen range depending on the range that is supplied. Lacks the cooling time found in the prior one. Therefore, using the API is more dependable.
+
+### Finding the suitable API for exchange rates
+
+In addition, I had previously used the [openexchangerates.org/api/latest.json](http://openexchangerates.org/api/latest.json?app_id=APP_ID) API to obtain the exchange rates, but it had a quota, so I had to look for another  API, preferrably from Coindesk that is unrestricted. 
+
+Eventually, I discovered [coindesk.com/pf/api/v3/content/fetch/exchange-rates](https://www.coindesk.com/pf/api/v3/content/fetch/exchange-rates), the Coindesk's v3 exchange rates API, but for some reason, it was not compatible with the Node.js app, and all requests were denied (forbidden). 
+
+After much reverse engineering of their website, I was able to locate [production.api.coindesk.com/v2/exchange-rates](https://production.api.coindesk.com/v2/exchange-rates), the Coindesk's v2 API for exchange rates, which is adequate for this application and has no limitations.
