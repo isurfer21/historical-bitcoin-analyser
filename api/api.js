@@ -30,10 +30,9 @@ Examples:
     DELETE: {},
   };
 
-  // Example usage
   app.get("/", (req, res) => {
     console.log(new Date().toISOString(), req.method, req.url);
-    res.writeHead(500, { "Content-Type": "application/json" });
+    res.writeHead(200, { "Content-Type": "application/json" });
     res.end(JSON.stringify({ message: "API service is active!" }));
   });
 
