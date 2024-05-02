@@ -1,4 +1,4 @@
-const getHistoricalPrices = async (startDate, endDate, targetCurrency) => { console.log(startDate, endDate, targetCurrency)
+const getHistoricalPrices = async (startDate, endDate, targetCurrency) => {
   const historicalPriceUrl =
     !startDate || !endDate || !targetCurrency
       ? null

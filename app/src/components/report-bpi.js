@@ -70,7 +70,7 @@ function ReportBPI() {
             </thead>
             <tbody>
               {historicalPrices.map((historicalPrice) => (
-                <tr key={crypto.randomUUID()}>
+                <tr key={historicalPrice.date}>
                   <td>{formatDate(historicalPrice.date)}</td>
                   <td>
                     {historicalPrice.price} {historicalPrice.high ? `(high)` : historicalPrice.low ? `(low)` : ""}

@@ -12,13 +12,17 @@ This project provides a comprehensive toolkit for exploring and analyzing histor
 
 This project offers comprehensive documentation to ensure you get the most out of it:
 
-### API Documentation:
+### API Documentation
 
 - **OpenAPI**: Access the OpenAPI specification for a machine-readable representation of the API at [webpage](docs/openapi/index.html) (link to [spec](docs/openapi.yml)).
 - **Swagger**: Explore an interactive Swagger UI for exploring API endpoints and trying them out at [webpage](docs/swagger/index.html) (link to [spec](docs/swagger.json)).
-- **Postman Collection**: Import the Postman collection for convenient testing and integration with your development environment (link to [postman collection](docs/HistoricalBitcoinAnalyser.postman_collection.jso)).
-- **Getting Started Guide**: A detailed [API Guide](docs/api-guide.md) & [App Guide](docs/app-guide.md) that walks users through the architecure of the historical-bitcoin-analyser tool.
+- **Postman Collection**: Import the Postman collection for convenient testing and integration with your development environment (link to [postman collection](docs/HistoricalBitcoinAnalyser.postman_collection.json)).
+
+### Guides
+
+- **API Guide**: A detailed [API Guide](guides/api-guide.md) that walks through the backend architecure, workflow, etc.
+- **App Guide**: A detailed [App Guide](guides/app-guide.md) that walks through the front-end architecure, workflow, etc.
 
 ## Getting Started
 
-Refer to the accompanying [Getting Started](getting_started.md) file  for detailed setup instructions. 
+Refer to the accompanying [Getting Started](guides/getting_started.md) file for detailed setup instructions. 

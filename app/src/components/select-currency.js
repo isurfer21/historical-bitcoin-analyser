@@ -26,7 +26,7 @@ function SelectCurrency(props) {
     <>
       <select name="currency" value={props.value} onChange={(e) => props.onChange(e.target.value)}>
         {currencies.map((item) => (
-          <option value={item.currency} key={crypto.randomUUID()}>
+          <option value={item.currency} key={item.currency}>
             {item.country} ({item.currency})
           </option>
         ))}
