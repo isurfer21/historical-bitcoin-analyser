@@ -47,11 +47,21 @@ To run all the servers along with reverse proxy, run the command
 sh run.sh
 ```
 
-As an alternative, you can use Docker to run it. To create the Docker image and then launch the container, run the command 
+As an alternative, you can use Docker to run it. To create the single Docker image and then launch the container, run the command 
 
 ```sh
 sh docker.sh
 ```
+
+Otherwise, to create multiple Docker images and then running all the containers, run the command 
+
+```sh
+sh multi-docker.sh
+```
+
+However, make sure the IP addresses or domains listed in `proxy/nginx/nginx.conf` are updated with the real ones. To route the traffic appropriately, you can substitute the sample IP address listed in the `upstream` servers with your real ones.
+
+Optionally, you can replace the _nginx_ based reverse-proxy with _node.js_ base reverse-proxy by exchanging the relevant commented section in `muti-docker.sh` file.
 
 Now open the [localhost:8080](http://localhost:8080/) link in your browser to view the webapp. The port `8080` Has been used as a default port for the reverse proxy.
 
