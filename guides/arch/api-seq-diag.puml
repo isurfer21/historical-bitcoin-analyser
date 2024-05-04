@@ -1,0 +1,39 @@
+@startuml
+
+title API Workflow - Sequence Diagram
+
+participant Client
+participant API
+participant Coindesk
+
+Client -> API : GET /supported-currencies
+activate API
+
+API -> Coindesk : GET api.coindesk.com/v1/bpi/supported-currencies.json
+activate Coindesk
+
+API <-- Coindesk : RESP list of currencies with country
+deactivate Coindesk
+
+Client <-- API : RESP list of currencies with country
+deactivate API
+
+
+Client -> API : GET /historical-prices (duration, currency)
+activate API
+
+API -> Coindesk: GET production.api.coindesk.com/v2/tb/price/values/BTC (duration)
+activate Coindesk
+
+API <-- Coindesk : RESP list of historical prices in USD currency
+
+API -> Coindesk : GET production.api.coindesk.com/v2/exchange-rates
+
+API <-- Coindesk : RESP list of currencies with exchange rates
+deactivate Coindesk
+
+Client <-- API : RESP list of historical prices in target currency
+deactivate API
+
+
+@enduml

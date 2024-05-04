@@ -46,6 +46,10 @@ It offers two main APIs:
 
 The `http-wrapper` module handles all http-based communications.
 
+For further understanding, you can refer the API workflow sequence diagram given below.
+
+![](./arch/api-seq-diag.svg)
+
 ## Build, Test & Deploy  
 
 ### Build
