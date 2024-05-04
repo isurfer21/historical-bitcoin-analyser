@@ -1,3 +1,5 @@
 Dockerfile
 dev-config.json
 docker.sh
+test
+test.sh
