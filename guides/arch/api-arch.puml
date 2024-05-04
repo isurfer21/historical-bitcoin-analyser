@@ -32,6 +32,7 @@ skinparam component {
   borderThickness 1
 }
 
+title API Components Relationship
 
 (<b>api</b>)
 (cli-parser)
@@ -43,7 +44,7 @@ skinparam component {
 (rest-api)
 
 
-(<b>api</b>) -[thickness=1]> (cli-parser)
+(<b>api</b>) --[thickness=1]> (cli-parser)
 (<b>api</b>) --[thickness=1]> (currencies-list)
 (<b>api</b>) --[thickness=1]> (hbp-extractor)
 (<b>api</b>) -[thickness=1]> (rest-api)
