@@ -46,6 +46,44 @@ It offers two main APIs:
 
 The `http-wrapper` module handles all http-based communications.
 
+## Build, Test & Deploy  
+
+### Build
+
+Since this API doesn't have any third party module dependency, so it doesn't require build. 
+
+### Testing
+
+To test the API, run this command
+
+```sh
+npm run test
+```
+
+Alternatively, run this command
+
+```sh
+sh test.sh
+```
+
+It will launch the API server, the mock server, and the reverse-proxy server, then run all of the test scenarios and report the results on the console before exiting.
+
+### Deploy
+
+The entire directory can be uploaded and deployed on the target server.
+
+The API server can then be started using this command
+
+```sh
+node api.js -a=0.0.0.0 -p=8081
+```
+
+Moreover, it can be also be deployed on a docker using this command
+
+```sh
+sh docker.sh
+```
+
 ## Challenges
 
 Probably, after Bullish acquired Coindesk, the Coindesk API documentation is no longer available on their official portal. The old API documentation link has been redirected to the homepage, where no API documentation link can be found, forcing me to practically hack their website to locate the most recent version of APIs.
