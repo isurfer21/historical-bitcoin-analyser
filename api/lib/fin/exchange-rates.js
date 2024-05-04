@@ -1,4 +1,7 @@
-const config = require("../../config.json");
+const nodeEnv = process.env.NODE_ENV ? `${process.env.NODE_ENV}-` : "";
+const configFilepath = `../../${nodeEnv}config.json`;
+
+const config = require(configFilepath);
 const HttpWrapper = require("../http-wrapper");
 
 const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
@@ -7,7 +10,7 @@ let cacheTimestamp = 0;
 
 async function fetchRates() {
   try {
-    const response = await HttpWrapper.get(config.api.exchange_rates); 
+    const response = await HttpWrapper.get(config.api.exchange_rates);
     return response.data;
   } catch (error) {
     console.error(error);
