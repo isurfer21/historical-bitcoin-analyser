@@ -19,7 +19,7 @@ class RestAPI {
   }
 
   listen(port, host, callback) {
-    const server = http.createServer((req, res) => {
+    this.server = http.createServer((req, res) => {
       const parsedUrl = url.parse(req.url, true);
       const path = parsedUrl.pathname;
       const query = parsedUrl.query;
@@ -33,7 +33,11 @@ class RestAPI {
       }
     });
 
-    server.listen(port, host, callback);
+    this.server.listen(port, host, callback);
+  }
+
+  close() {
+    this.server.close();
   }
 }
 
